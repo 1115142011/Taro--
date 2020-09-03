@@ -1,0 +1,65 @@
+.closeBtn {
+  padding: 30px;
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  z-index: 1001;
+}
+
+
+
+.modalContentWrap {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  color: #707070;
+  .butlerDialogImg {
+    width: 150px;
+    height: 150px;
+  }
+  .address {
+    margin: 20px;
+    font-size: 24px;
+  }
+  .addressPicker {
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    border: #e6e6e5 2px solid;
+    box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.14);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+  }
+  .addressContent {
+    flex: 1;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggleDown {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .butlerQR {
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.14);
+  }
+  .hintInfo {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    text-align: center;
+  }
+}

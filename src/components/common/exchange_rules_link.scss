@@ -1,0 +1,18 @@
+.linkWrap {
+  box-sizing: border-box;
+  width: 700px;
+  height: 80px;
+  padding-right: 35px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.exchangeRuleLink {
+  font-size: 20px;
+  color: #ff7600;
+  display: flex;
+  align-items: center;
+  .exchangeRuleText {
+    margin-left: 5px;
+  }
+}

@@ -1,0 +1,61 @@
+.swperBox {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.swperItem {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+}
+
+.categoryControl {
+  width: 100%;
+  height: 54px;
+  background: transparent;
+  color: rgba(238, 238, 238, 1);
+  font-size: 24px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.categoryBox {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap
+}
+
+.categoryItem {
+  display: inline-block;
+  padding: 0 15px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+  .highlightIcon {
+    display: hidden;
+  }
+
+  &.isCurrenrt {
+    color: #ffffff;
+
+    .highlightIcon {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      width: 18px;
+      height: 18px;
+      background: #ffffff;
+      transform: translate(-50%, 50%) rotate(45deg);
+    }
+  }
+
+}

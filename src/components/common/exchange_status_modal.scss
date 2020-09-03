@@ -1,0 +1,35 @@
+.closeBtn {
+  padding: 30px;
+  position: absolute;
+  right: 0px;
+  top: -15px;
+  z-index: 1001;
+}
+.modalContentWrap {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  color: #707070;
+  .modalPic {
+    width: 150px;
+    height: 150px;
+  }
+  .modalContent {
+    margin: 40px 0 40px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .orange{
+    color:#ff7600
+  }
+  .buttonWrap {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .modalBtn {
+      flex: 1;
+    }
+  }
+}

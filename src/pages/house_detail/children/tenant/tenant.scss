@@ -1,0 +1,33 @@
+.listBox {
+  width: 100%;
+  font-size: 24px;
+}
+
+.tenantItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FDF8E0;
+  padding-right: 20px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  overflow: hidden;
+  margin: 12px 0;
+}
+
+.leftBox {
+  display: flex;
+  align-items: center;
+
+  .iconBox {
+    width: 62px;
+    height: 62px;
+    background: #F7D235;
+    border-radius: 8px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

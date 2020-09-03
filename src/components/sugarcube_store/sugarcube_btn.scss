@@ -1,0 +1,33 @@
+.surgarCubeBtn {
+  background-color: rgba($color: #ff7600, $alpha: 0.37);
+  width: 150px;
+  height: 50px;
+  border-radius: 24px;
+  font-size: 24px;
+  // padding-left: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .cubeBtnImg {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -20px;
+  }
+  .cubeValue{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    clear: both;
+  }
+
+  .rightArrow{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+  }
+
+}

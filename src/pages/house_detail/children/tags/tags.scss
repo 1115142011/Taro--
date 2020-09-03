@@ -1,0 +1,23 @@
+.tagsBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagItem {
+  padding: 3px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background: #F1EDF0;
+}
+
+.orangeTag {
+  background: #FF7600;
+  color: #ffffff;
+}
+
+.yello {
+  background: #FDD835;
+}

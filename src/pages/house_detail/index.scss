@@ -1,0 +1,132 @@
+.houseInfo {
+  padding: 20px 30px 150px 48px;
+  background: #FFFFFF;
+}
+
+.houseName {
+  font-weight: bold;
+}
+
+.housePrice {
+  margin-top: 21px;
+  font-size:40px
+}
+
+.orange {
+  color: #ff7700;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.smallFont {
+  font-weight: 400;
+  font-size: 28px;
+}
+.priceHint{
+  font-size:30px;
+}
+
+.payModeExplain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 26px;
+  margin-top: 21px;
+
+  .hintText {
+    color: #a3a3a3;
+  }
+
+  .linkTag {
+    color: #2b2b2b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .linkText {
+    margin-right: 20px;
+  }
+}
+
+.attachedTags {
+  margin-top: 25px;
+  width: 100%;
+}
+
+.roomExplain {
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+
+  .msgItem {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-right: solid 2px #E5E5E5;
+
+    .msgTitle {
+      color: #7c7c7c;
+    }
+  }
+
+  .msgItem:last-child {
+    border-right: none;
+  }
+
+  .desc {
+    margin-top: 20px;
+  }
+}
+
+.largeTitle {
+  margin: 40px 0 30px;
+  font-weight: bold;
+  color: #2c2c2c;
+}
+
+.localtionMsg {
+  .map {
+    height: 323px;
+    background: #a3a3a3;
+  }
+}
+
+.footerBox {
+  position: fixed;
+  justify-content: flex-end;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.03);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 144px;
+  box-sizing: border-box;
+  padding: 27px;
+  background: #ffffff;
+  border-top: solid 1px #f5f5f5;
+  display: flex;
+  z-index: 2;
+}
+
+.bookedBtn {
+  background: #F7D235;
+  margin-right: 20px;
+  border:0px;
+  width:270px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+}
+
+.callBtn {
+  background: #FF7600;
+  color: #ffffff;
+  border:0px;
+  width:270px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14);
+}
+
+.btnInnerIcon {
+  margin-right: 21px;
+}

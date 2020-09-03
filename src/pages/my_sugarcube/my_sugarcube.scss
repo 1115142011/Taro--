@@ -1,0 +1,155 @@
+.mySugarcubeWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // 用js给到了动态高度
+  height: 1450px;
+}
+
+.fissionBannerContainer {
+  margin-top: 20px;
+}
+.sugarcubeBalanceWrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin-top: 20px;
+  width: 700px;
+  height: 228px;
+  border-radius: 24px;
+  box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.14);
+  background-color: white;
+}
+
+.sugarcubeRulesLink {
+  position: absolute;
+  background-color: #eeeeee;
+  color: #515151;
+  right: -20px;
+  top: 20px;
+  padding: 12px 40px 12px 30px;
+  border-radius: 100px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  .rightArrowImg {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    opacity: 0.8;
+  }
+}
+.balanceTitle {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #707070;
+  .cubeIconImg {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+  }
+}
+.sugarcubeBalanceValue {
+  margin-top: 10px;
+  font-size: 50px;
+  color: #ff7600;
+}
+.sugarcubeStoreLink {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #ff7600;
+  .rightArrowOrangeImg {
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+  }
+}
+
+.balanceDetail {
+  flex: 1;
+  position: relative;
+  margin-top: 20px;
+  width: 700px;
+  position: relative;
+  box-shadow: 0px 2px 2px rgba($color: #000000, $alpha: 0.14);
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  .balanceDetailHeader {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    background: url("../../assets/common/list_header.svg") no-repeat;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    background-size: 105%;    
+    background-position: left;
+    overflow: hidden;
+  }
+  .detailHeaderTitle {
+    margin-left: 90px;
+    font-size: 32px;
+  }
+}
+.detailBlankContainer {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .defaultImg {
+    width: 210px;
+    height: 200px;
+  }
+  .defaultInfo {
+    margin-top: 50px;
+    color: #ff7600;
+    font-size: 28px;
+  }
+}
+
+.tabDetailListWrap {
+  overflow: hidden scroll;
+  //height通过计算高度进行style赋值
+  .tabDetailListUnit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    border-bottom: 1px #e1e1e1 solid;
+    .detailInfoWrap {
+      display: flex;
+      flex-direction: column;
+      .detailInfo {
+        font-size: 24px;
+      }
+      .detailTime {
+        margin-top: 10px;
+        font-size: 20px;
+        color: #8f8f8f;
+      }
+    }
+    .detailBalanceChange {
+      font-size: 28px;
+    }
+  }
+  .incomeListUnit {
+    .detailBalanceChange {
+      color: #38ce60;
+    }
+  }
+  .outcomeListUnit {
+    .detailBalanceChange {
+      color: #fd8c0b;
+    }
+  }
+}

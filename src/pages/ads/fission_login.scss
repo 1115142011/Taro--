@@ -1,0 +1,180 @@
+page {
+  background-color: #fdd835;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fdd835;
+}
+
+.top-content {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .top-bg-pic {
+    width: 300%;
+    height: 800px;
+    position: absolute;
+    top: -450px;
+    z-index: 0;
+  }
+
+  .avatar-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 60px;
+    z-index: 1;
+
+    .avatar-img {
+      border: 4px solid #ffffff;
+    }
+
+    .top-text {
+      margin-left: 30px;
+      color: #ffffff;
+    }
+  }
+}
+
+.top-bg-box {
+  background-color: #fdd835;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  z-index: -2;
+}
+
+.form-content {
+  width: 692px;
+  margin-top: -100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+
+  .login-component-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+
+    .login-input {
+      position: relative;
+      width: 100%;
+      border-radius: 50px;
+      overflow: hidden;
+      background-color: #ffffff;
+      height: 88px;
+      align-items: center;
+      padding-left: 40px;
+      box-sizing: border-box;
+    }
+
+    .getAuthCode {
+      position: absolute;
+      right: 30px;
+      top: 132px;
+      z-index: 2;
+    }
+
+    .accept-btn {
+      border-radius: 44px;
+      color: #ffffff;
+      border: 0px;
+      background: linear-gradient(90deg,
+          rgba(253, 216, 53, 1) 0%,
+          rgba(255, 118, 0, 1) 100%);
+      box-shadow: 0px 5px 3px rgba(255, 109, 0, 0.8);
+    }
+  }
+}
+
+.detail-content {
+  width: 100%;
+  background-color: #fdeb94;
+  margin-top: -70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .at-divider__content {
+    background-color: #fdeb94;
+    font-size: 24px;
+  }
+
+  .detail-wrap {
+    margin-top: 30px;
+    width: 90%;
+    font-size: 24px;
+    color: #ff7600;
+    line-height: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.apartment-content {
+  width: 100%;
+  // background-color: #fef3c0;
+  background: linear-gradient(#fef3c0, #fef3c0, #ffffff);
+  /* 标准的语法 */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  .divider-wrap {
+    margin-top: -20px;
+    width: 90%;
+    z-index: 1;
+
+    .at-divider__content {
+      background-color: #fef3c0;
+      font-size: 24px;
+    }
+  }
+
+  .apartment-links {
+    width: 100%;
+    display: flex;
+    overflow: scroll hidden;
+
+    .apartment-link {
+      margin-left: 30px;
+
+      .apartment-img {
+        width: 260px;
+        height: 200px;
+        border-radius: 8px;
+      }
+
+      .apartment-info {
+        width: 280px;
+
+        .apartment-address {
+          font-weight: bold;
+          font-size: 20px;
+          margin-bottom: 5px;
+        }
+
+        .apartment-props {
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+
+        .apartment-price {
+          color: #ff8949;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}

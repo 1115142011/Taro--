@@ -1,0 +1,19 @@
+.paraWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  .paraName {
+    flex: 1;
+    color: #515151;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .paraValue {
+    flex: 1;
+    color: #7f7f7f;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

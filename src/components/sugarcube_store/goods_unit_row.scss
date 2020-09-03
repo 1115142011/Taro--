@@ -1,0 +1,57 @@
+
+.goodsUnitRow {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-bottom: 1px solid #e1e1e1;
+  .goodsImg {
+    width: 210px;
+    // height: 150px;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+// .goodsUnitRow:last-child{
+//   border-bottom: #fff;
+// }
+
+.goodsInfo {
+  margin-left: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  .goodsName {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+  .goodsValue {
+    font-size: 24px;
+    color: #707070;
+    margin-bottom: 5px;
+  }
+  .goodsPriceWrap{
+    display: flex;
+    align-items: center;
+  }
+  .goodsPrice {
+    margin-right: 8px;
+    display: flex;
+    font-size: 32px;
+    color: #ff7600;
+  }
+  .cubeBtnImg {
+    width: 30px;
+    height: 30px;
+  }
+}
+.exchangeBtnWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

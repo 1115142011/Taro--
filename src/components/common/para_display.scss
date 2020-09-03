@@ -1,0 +1,21 @@
+.paraWrap {
+  .paraTitle {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 40px;
+    margin-top: 40px;
+    .paraIcon {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+  .paraContent {
+    margin-top: 40px;
+    padding: 0 90px;
+    display: block;
+    font-size: 24px;
+    color: #707070;
+  }
+}

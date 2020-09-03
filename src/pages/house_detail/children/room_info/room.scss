@@ -1,0 +1,43 @@
+.listBox {
+  width: 100%;
+  font-size: 24px;
+}
+
+.roomItem {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.roomImage {
+  width: 165px;
+  height: 108px;
+  margin-right: 25px;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .pic {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.roomInfo {
+  flex: 1;
+
+  .roomDsc {
+    margin-top: 8px;
+    font-size: 22px;
+    color: #959595;
+  }
+}
+
+
+.priceMsg {
+  display: flex;
+  color: #FF7600;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
