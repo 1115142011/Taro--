@@ -10,3 +10,7 @@
 4. 采用 webView 将旧有的 H5 项目集成到小程序
 5. 实名认证系统
 6. 分享裂变流程
+
+###小程序码
+
+![avatar](https://test.pixelroom.cn//store/upload/salemans/salemans15992154902109856.jpg)
